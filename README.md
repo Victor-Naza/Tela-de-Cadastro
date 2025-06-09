@@ -1,7 +1,6 @@
 # Login e Cadastro
 
-Projeto simples com telas de login e cadastro usando Node.js, Express, Prisma, Axios e HTML/CSS.
-
-## Aviso
-
-O projeto **não inclui o banco de dados**. Você precisa configurar o seu `.env` com a URL de um banco e rodar o `prisma migrate` pra funcionar.
+Projeto simples com telas de login e cadastro usando Node.js, Express, Bcrypt, Prisma, Axios e HTML/CSS.
+Bcrypt para criptografar sennhas.
+ORM Prisma para conectar banco de dados.
+Axios para facilitar a realização de requisições HTTP (Get, Post, Put, Delete...).
